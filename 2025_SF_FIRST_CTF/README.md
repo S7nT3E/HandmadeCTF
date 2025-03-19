@@ -6,7 +6,7 @@
 
 PWN 분야의 3문제를 출제했고, 각각의 난이도는 아래와 같습니다.
 
-| 문제 이름 | 카테고리 | 난이도 |
+| 문제 이름 | 키워드 | 난이도 |
 | --- | --- | --- |
 | Miruni | integer overflow | Easy |
 | REWIND | RTS | Medium |
