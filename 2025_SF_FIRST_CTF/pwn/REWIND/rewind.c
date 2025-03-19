@@ -1,3 +1,5 @@
+// gcc -fno-stack-protector -no-pie -z execstack  rewind.c -o rewind
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
