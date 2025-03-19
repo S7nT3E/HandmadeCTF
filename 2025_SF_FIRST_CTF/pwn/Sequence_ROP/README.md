@@ -1,7 +1,5 @@
 # Sequence_ROP
 
----
-
 ### 문제 설명
 
 ROP를 통해서 Sequence를 순서에 맞게 통과하면 쉘을 딸 수 있는 ROP 문제

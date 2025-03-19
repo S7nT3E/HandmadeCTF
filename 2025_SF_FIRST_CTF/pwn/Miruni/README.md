@@ -1,7 +1,5 @@
 # Miruni
 
----
-
 ### 문제 설명
 
 integer overflow를 통한 간단한 문제

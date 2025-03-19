@@ -1,7 +1,5 @@
 # 2024_SecurityFirst_Last_CTF
 
----
-
 ### 설명
 
 2024년 SecurityFirst 연말 해킹 대회에서 출제한 문제 모음입니다.

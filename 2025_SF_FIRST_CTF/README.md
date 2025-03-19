@@ -1,7 +1,5 @@
 # 2025_SecurityFirst_First_CTF
 
----
-
 ### 설명
 
 2025년 SecurityFirst 연초 해킹 대회에서 출제한 문제 모음입니다.
