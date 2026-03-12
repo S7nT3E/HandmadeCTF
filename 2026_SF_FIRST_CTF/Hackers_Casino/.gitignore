@@ -1,0 +1,34 @@
+# Binaries
+casino
+*.o
+*.out
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Pwntools
+*.log
+core
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+.dockerignore
+
+# CTF specific
+flag.txt
+*.tar.gz
+dist/

@@ -1,0 +1,10 @@
+services:
+    snackshell:
+        platform: linux/amd64
+        build:
+            context: ./
+            args:
+                NAME: pwn-snackshell
+        ports:
+          - "20003:20003"
+        restart: always

@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  warmup:
+    build: .
+    ports:
+      - "20004:20004"
+    restart: unless-stopped
+    container_name: Welcome_pwnable

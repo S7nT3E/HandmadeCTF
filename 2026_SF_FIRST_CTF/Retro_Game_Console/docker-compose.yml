@@ -1,0 +1,14 @@
+services:
+  retro-game-console:
+    build: .
+    platform: linux/arm/v7
+    command: ["socat", "TCP-LISTEN:20005,reuseaddr,fork,keepalive", "EXEC:'/home/ctf/retro_game_console',stderr,setsid,sigint,sighup"]
+    ports:
+      - "20005:20005"
+    restart: unless-stopped
+    pids_limit: 20
+    mem_limit: 256m
+    cpus: "0.5"
+    read_only: true
+    tmpfs:
+      - /tmp

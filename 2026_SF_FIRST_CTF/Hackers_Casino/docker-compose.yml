@@ -1,0 +1,10 @@
+services:
+    note_manager:
+        platform: linux/amd64
+        build:
+            context: ./
+            args:
+                NAME: pwn-hackers_casino
+        ports:
+          - "20000:20000"
+        restart: always

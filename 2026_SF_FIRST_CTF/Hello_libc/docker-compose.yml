@@ -1,0 +1,10 @@
+services:
+    note_manager:
+        platform: linux/amd64
+        build:
+            context: ./
+            args:
+                NAME: pwn-note_manager
+        ports:
+          - "20001:20001"
+        restart: always
